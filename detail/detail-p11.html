@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style-detail.css">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <script src="../js/script-detail.jss" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+</head>
+<body>
+    <div>
+	    <ul id="header" class="show">
+	        <li class="font-li">Hotline: 1900 636 510 - 0973 104 105
+	        &nbsp;&nbsp; Email: rogerles@gmail.com</li>
+	        <li><a href="../index.html">Trang chủ</a></li>
+	    </ul>
+	</div>
+	
+	<div>
+        <div id="left1">
+            <p class="item">RogerLes</p>
+        </div>
+        <div id="right1">
+            <form>
+                <input type="search" name="product-name"
+                        placeholder ="Tìm kiếm trên RogerLes" size="60px" class="search">
+            </form>
+        </div>
+    </div>
+    
+    <div id="product">
+        <div>
+            <img src="../image/image11.jpg" alt="image" class="index-image">
+        </div>
+        <div id="right">
+            <p style="color: blue">Sữa dưỡng thể dưỡng trắng da Nivea, giúp phục hồi & chống nắng hiệu quả 350ml - 88311
+            </p>
+            <p style="color:red">106.000đ</p>
+            <p><del>143.000đ</del>&nbsp;-26%</p>
+            <form class="number-product">
+                <input type="button" onclick="down();" value="-" class="button"/>
+                &nbsp;&nbsp;
+                <div id="up">0</div>
+                &nbsp;&nbsp;
+                <input type="button" onclick="up();" value="+" class="button" />
+            </form>
+
+            <form>
+                <button class="button2" >Home</button>
+                &nbsp;&nbsp;
+                <button class="button2">Thêm vào giỏ hàng</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="describe">
+        <h3>Mô tả sản phẩm:</h3>
+        <ul>
+            <li>Dưỡng chất chiết xuất từ thiên nhiên</li>
+            <li>Thẩm thấu nhanh vào da, đem lại làn da mịn mượt</li>
+            <li>Chống nắng, bảo vệ da tối ưu</li>
+            <li>Thích hợp với mọi loại da</li>
+        </ul>
+    </div>
+    <br>
+    <div class="reviews">
+        <div class="stars">
+            <h3>Đánh giá sản phẩm</h3>
+            <form action="">
+              <input class="star star-5" id="star-5" type="radio" name="star"/>
+              <label class="star star-5" for="star-5"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star"/>
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star"/>
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star"/>
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-1" id="star-1" type="radio" name="star"/>
+              <label class="star star-1" for="star-1"></label>
+            </form>
+        </div>
+        <div class="comment">
+            <p>Nhận xét về sản phẩm</p>
+            <input type="text" class="thecomment">
+        </div>
+    </div>
+</body>
+</html>
